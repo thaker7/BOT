@@ -70,7 +70,7 @@ async def startsudo(c: Client, m: Message, strings):
 async def start(c: Client, m: Message, strings):
     if m.chat.type == "private":
         if get_db_botname() is None:
-            botname = "سيمو"
+            botname = "جاك"
         else:
             botname = get_db_botname()
         x = f"""
