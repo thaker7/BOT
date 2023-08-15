@@ -108,12 +108,11 @@ async def start(c: Client, m: Message, strings):
 async def start_back(c: Client, m: CallbackQuery, strings):
     if m.message.chat.type == "private":
         if get_db_botname() is None:
-            botname = "سيمو"
+            botname = "جاك"
         else:
             botname = get_db_botname()
         x = f"""
-    ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-        ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+    ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
    🤖╖ أهلآ بك في بوت {botname}
 🎧╢❀ لأستخدام البوت اغاني وفيديو كول  
 🌐╢❀ وظيفتي حماية المجموعات 
