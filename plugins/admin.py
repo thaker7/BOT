@@ -134,11 +134,11 @@ async def unpinall(c: Client, m: Message):
 @use_chat_lang()
 async def banrep(c: Client, m: Message, strings):
     try:
-        if m.reply_to_message.from_user.id == 5680297831:
+        if m.reply_to_message.from_user.id == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/36",
                                     caption=f"◍ لايمكننى حظر مطور السورس\n√", parse_mode="Markdown")
             return
-        elif m.reply_to_message.from_user.id == 5680297831:
+        elif m.reply_to_message.from_user.id == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/36",
                                     caption=f"◍ لايمكننى حظر مطور السورس\n√", parse_mode="Markdown")
             return
@@ -211,12 +211,12 @@ async def banuser(c: Client, m: Message, strings):
     chat_id_foruser = result[0]
     chat_name_foruser = result[1]
     try:
-        if chat_id_foruser == 5680297831:
+        if chat_id_foruser == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/36",
                                     caption=f"◍ لايمكننى حظر مطور السورس\n√", parse_mode="Markdown")
             return
         else:
-            if chat_id_foruser == 5680297831:
+            if chat_id_foruser == 6250435647:
                 await m.reply_animation("https://t.me/UURTBOT/36",
                                     caption=f"◍ لايمكننى حظر مطور السورس\n√", parse_mode="Markdown")
                 return
@@ -377,12 +377,12 @@ def ban_user_test_byuser(m, u):
 async def kickrep(c: Client, m: Message, strings):
     try:
         n = c.iter_chat_members(m.chat.id, filter="Administrators")
-        if m.reply_to_message.from_user.id == 5680297831:
+        if m.reply_to_message.from_user.id == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/36",
                                     caption=f"◍ لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
             return
         else:
-            if m.reply_to_message.from_user.id == 5680297831:
+            if m.reply_to_message.from_user.id == 6250435647:
                 await m.reply_animation("https://t.me/UURTBOT/36",
                                         caption=f"◍ لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
                 return
@@ -451,7 +451,7 @@ async def kickuser(c: Client, m: Message, strings):
                                     caption=f"◍ لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
             return
         else:
-            if chat_id_foruser == 5680297831:
+            if chat_id_foruser == 6250435647:
                 await m.reply_animation("https://t.me/UURTBOT/36",
                                         caption=f"◍ لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
                 return
@@ -510,7 +510,7 @@ async def kickuser(c: Client, m: Message, strings):
 @use_chat_lang()
 async def muterep(c: Client, m: Message, strings):
     try:
-        if m.reply_to_message.from_user.id == 5680297831:
+        if m.reply_to_message.from_user.id == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/38",
                                     caption=f"◍ لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
             return
@@ -591,7 +591,7 @@ async def muteuser(c: Client, m: Message, strings):
     chat_id_foruser = result[0]
     chat_name_foruser = result[1]
     try:
-        if chat_id_foruser == 5680297831:
+        if chat_id_foruser == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/38",
                                     caption=f"◍ لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
             return
@@ -761,7 +761,7 @@ def mute_user_test_byuser(m, u):
 async def tban(c: Client, m: Message, strings):
     try:
         n = c.iter_chat_members(m.chat.id, filter="Administrators")
-        if m.reply_to_message.from_user.id == 5680297831:
+        if m.reply_to_message.from_user.id == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/36",
                                     caption=f"◍ لايمكننى حظر مطور السورس\n√", parse_mode="Markdown")
             return
@@ -835,7 +835,7 @@ async def tban(c: Client, m: Message, strings):
 async def tmute(c: Client, m: Message, strings):
     try:
         n = c.iter_chat_members(m.chat.id, filter="Administrators")
-        if m.reply_to_message.from_user.id == 5680297831:
+        if m.reply_to_message.from_user.id == 6250435647:
             await m.reply_animation("https://t.me/UURTBOT/38",
                                     caption=f"◍ لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
             return

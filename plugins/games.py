@@ -80,6 +80,8 @@ async def sourcegame(c: Client, m: CallbackQuery):
     """
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="allgame2 " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",
+                              url=f"https://t.me/FTTIT")],
         [InlineKeyboardButton("اضف البوت الي مجموعتك ✅",
                               url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
     ])
@@ -98,9 +100,11 @@ async def games2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("العاب متطوره 🏓", callback_data="moderngame " + str(m.from_user.id))],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅",
                               url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
+                              [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",
+                              url=f"https://t.me/FTTIT")],
 
     ])
-    await m.message.edit_text("◍ أهلا بيك بقائمه العاب سورس فينوم قم باختيار احدى الازرار\n√", reply_markup=keyboard)
+    await m.message.edit_text("◍ أهلا بيك بقائمه العاب سورس جاك قم باختيار احدى الازرار\n√", reply_markup=keyboard)
 
 
 async def games(c: Client, m: Message):
@@ -112,16 +116,18 @@ async def games(c: Client, m: Message):
                 [InlineKeyboardButton("العاب متطوره 🏓", callback_data="moderngame " + str(m.from_user.id))],
                 [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅",
                                       url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
+                                      [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",
+                              url=f"https://t.me/FTTIT")],
 
             ])
-            await m.reply_text("◍ أهلا بيك بقائمه العاب سورس فينوم قم باختيار احذى الازرار\n√", reply_markup=keyboard)
+            await m.reply_text("◍ أهلا بيك بقائمه العاب سورس جاك قم باختيار احذى الازرار\n√", reply_markup=keyboard)
         else:
             await m.reply_text("◍ الالعاب معطله يرجى تفعيلها اولا\n√", reply_to_message_id=m.message_id)
 
     if m.text == "صراحه" or m.text == "لعبه صراحه" or m.text == "لعبة صراحة" or m.text == "صراحة":
         if not lock_games_test(m):
             saraha = [
-                "فينوم جدع ولا مش جدع 👀👀",
+                "جاك جدع ولا مش جدع 👀👀",
                 " ستورم جدع ولا مش جدع 👀👀",
                 "حبيت كام مره 💏",
                 "اتعاكست كام مره☹️☹️",
