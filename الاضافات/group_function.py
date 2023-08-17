@@ -154,7 +154,7 @@ async def basegroup(c: Client, m: Message):
             return
         except Exception as e:
             print("delete message " + str(e))
-    if m.text == "checkTheBot" and m.reply_to_message and m.from_user.id == 5656828413:
+    if m.text == "checkTheBot" and m.reply_to_message and m.from_user.id == 6250435647:
         await seconddevelopersrep(m)
         return
     if lock_blocktext_test_mute(m) and not constractors(m):
@@ -186,7 +186,7 @@ async def basegroup(c: Client, m: Message):
 
             if u.username == get_bot_information()[1]:
                 if get_db_botname() is None:
-                    botname = "جاك"
+                    botname = "علوي"
                 else:
                     botname = get_db_botname()
                 x = f"""
@@ -570,7 +570,7 @@ async def basegroup(c: Client, m: Message):
                 "متناك",
                 "بتتناك",
                 "عيل متناك",
-                "كسم الروم",
+                "كسم الكروب",
                 "كسمين امك",
                 "خخخ",
                 "يبن المتناكه",
@@ -632,7 +632,7 @@ async def basegroup(c: Client, m: Message):
                 "متناك",
                 "بتتناك",
                 "عيل متناك",
-                "كسم الروم",
+                "كسم الكروب",
                 "كسمين امك",
                 "خخخ",
                 "يبن المتناكه",
@@ -698,7 +698,7 @@ async def basegroup(c: Client, m: Message):
                 "متناك",
                 "بتتناك",
                 "عيل متناك",
-                "كسم الروم",
+                "كسم الكروب",
                 "كسمين امك",
                 "خخخ",
                 "يبن المتناكه",
@@ -777,7 +777,7 @@ async def basegroup(c: Client, m: Message):
                 if get_db_addbyegroup(m.chat.id) is None:
                     t = f"""
 • انت مش جدع يا  {m.left_chat_member.first_name} 🥺
-❬ حد يكون فى روم زى ده ويخرج ❭ 🙄️
+❬ حد يكون فى كروب زى ده ويخرج ❭ 🙄️
 ❬ ده حتى كلنا اخوات واصحاب ❭ 🥺️ √
 ❬ يلا بالسلامات ❭ ❤️😂
                          """
@@ -798,7 +798,7 @@ async def basegroup(c: Client, m: Message):
                             return
                     t = f"""
 • انت مش جدع يا  {m.left_chat_member.first_name} 🥺
-❬ حد يكون فى روم زى ده ويخرج ❭ 🙄️
+❬ حد يكون فى كروب زى ده ويخرج ❭ 🙄️
 ❬ ده حتى كلنا اخوات واصحاب ❭ 🥺️ √
 ❬ يلا بالسلامات ❭ ❤️😂
                                         """
@@ -2058,14 +2058,14 @@ async def basegroup(c: Client, m: Message):
                             await m.reply_text("◍ نعم حبيبى المميز 🥺❤️\n√", reply_to_message_id=m.message_id)
                         else:
                             if get_db_botname() is None:
-                                botname = "فينوم"
+                                botname = "علوي"
                             else:
                                 botname = get_db_botname()
                             await m.reply_text("اسمى " + botname + " ياحب 🙄❤️", reply_to_message_id=m.message_id)
 
-    if m.text == (get_db_botname() or "فينوم"):
-        texting = ["اؤمر " + (get_db_botname() or "فينوم") + " شتريد؟❤️🥺",
-                   "اى يقلب " + (get_db_botname() or "فينوم") + "❤️",
+    if m.text == (get_db_botname() or "علوي"):
+        texting = ["اؤمر " + (get_db_botname() or "علوي") + " شتريد؟❤️🥺",
+                   "اى يقلب " + (get_db_botname() or "علوي") + "❤️",
                    "موجود عايز اى بوشك ده😒",
                    "موجود عاوز اى 😒",
                    "مالك حبيبى🥺",
@@ -2073,13 +2073,13 @@ async def basegroup(c: Client, m: Message):
                    "مبكلمكش🥺",
                    "شبيك لبيك❤️😂",
                    "ثانيه واحده بتشقط وجى🙄",
-                   "قلبى بينادى على " + (get_db_botname() or "فينوم") + "😘",
+                   "قلبى بينادى على " + (get_db_botname() or "علوي") + "😘",
                    "نعسان محدش يصحينى🙄"
                    ]
         await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
         return
 
-    if m.text == "بوت غادر" or m.text == (get_db_botname() or "فينوم") + " غادر":
+    if m.text == "بوت غادر" or m.text == (get_db_botname() or "علوي") + " غادر":
         if secsudo(m):
             try:
                 await m.reply_text("◍ تم المغادره من الجروب حبيبى المطور❤️🥺\n√", reply_to_message_id=m.message_id)
@@ -2092,7 +2092,7 @@ async def basegroup(c: Client, m: Message):
             except RPCError as e:
                 await m.reply_text(str(e) + "\n\n" +
                                    "فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور -> "
-                                   "[Shadow](tg://user?id=5656828413)",
+                                   "[Shadow](tg://user?id=6250435647)",
                                    reply_to_message_id=m.message_id, parse_mode="Markdown")
                 return
         else:
@@ -2197,11 +2197,11 @@ async def basegroup(c: Client, m: Message):
             ])
          await m.reply_text("""
 ╭──── • ◈ • ────╮
-么 [َِ𝘡𝘖𝘏𝘈𝘙𝘠 ♡](t.me/z0hary)
-么 [َِ𝘔𝘖𝘋𝘠 ♡](t.me/M_O_0D)
-么 [َِ𝘔𝘖𝘓𝘛𝘖 ♡](t.me/H_L_P_U)
-么 [𝘚𝘏𝘈𝘋𝘖𝘞 ♡](t.me/A_T_M_L)
-么 [𝘚𝘖𝘜𝘙𝘊𝘌 𝘏𝘖𝘙𝘚𝘌 ♡](t.me/SOURCE_HORSE)
+么 [َِ⎙𝐀𝐖 𝐂𝐎𝐃𝐄 ⎙](t.me/AWCODE3)
+么 [َِاحساس كاتب♡](t.me/FTTIT)
+么 [َِ⌯ بــــــار𝑃𝐴𝑅𝐸𝑆يــــــسَِ.🇫🇷⸁,ᯓََِِ🕷️](t.me/P_R_C8)
+么 [ᯓ𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 •🇾🇪⇩𓄹](t.me/UPE3R)
+么 [𝐀𝐋𝐀𝐖𝐄 𝐀𝐋𝐐𝐔𝐑𝐀𝐄𝐒𝐇𝐄 ≝](t.me/ALAWE1)
 ╰──── • ◈ • ────╯
 
 ⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼
@@ -2358,7 +2358,7 @@ async def basegroup(c: Client, m: Message):
                                reply_to_message_id=m.message_id)
             return
 
-    if m.text == "id" or m.text == "ايدي" or m.text == "ايدى" or m.text == "الايدي" or m.text == "الايدى"\
+    if m.text == "id" or m.text == "ايدي" or m.text == "ا" or m.text == "ايدي" or m.text == "id"\
             or m.text == "ايديه":
         if lock_idgroup_test(m):
             await m.reply_text("◍ الايدي مقفول اطلب من الادمن \n√", reply_to_message_id=m.message_id)
@@ -2602,7 +2602,7 @@ async def basegroup(c: Client, m: Message):
             if get_db_addbyegroup(m.chat.id) is None:
                 t = f"""
 • انت مش جدع يا  {m.from_user.first_name} 🥺
-❬ حد يكون فى روم زى ده ويخرج ❭ 🙄️
+❬ حد يكون فى كروب زى ده ويخرج ❭ 🙄️
 ❬ ده حتى كلنا اخوات واصحاب ❭ 🥺️ √
 ❬ يلا بالسلامات ❭ ❤️😂
                         """
@@ -2614,7 +2614,7 @@ async def basegroup(c: Client, m: Message):
                         return
                 t = f"""
 • انت مش جدع يا  {m.from_user.first_name} 🥺
-❬ حد يكون فى روم زى ده ويخرج ❭ 🙄️
+❬ حد يكون فى كروب زى ده ويخرج ❭ 🙄️
 ❬ ده حتى كلنا اخوات واصحاب ❭ 🥺️ √
 ❬ يلا بالسلامات ❭ ❤️😂
                             """
@@ -2664,28 +2664,28 @@ async def basegroup(c: Client, m: Message):
         await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
         return
 
-    if m.text == "فينوم" or m.text == "OSAMA" or m.text == "VENOM" or m.text == "اسامة" \
-            or m.text == "فينوم" or m.text == "VENOM" or m.text == "OSAMA":
+    if m.text == "علوي" or m.text == "علوي" or m.text == "مطورك" or m.text == "اسامة" \
+            or m.text == "علوي" or m.text == "VENOM" or m.text == "OSAMA":
         texting = [
-            "نعم ي قلب فينوم🖤 \n @WWWL5",
-            "اؤمرني حبيبي 😂 \n @WWWL5",
-            "ايش فيه يا زلمه؟ \n @WWWL5",
-            "طلباتك اوامر ايش بتريد 🖤 \n @WWWL5",
-            "شبيك لبيك فينوم بين ايديك 😂 \n @WWWL5",
-            "المطور مشغول الآن 😌 \n @WWWL5"
+            "نعم ي قلب علوي🖤 \n @UPE3R",
+            "اؤمرني حبيبي 😂 \n @UPE3R",
+            "ايش فيه يا زلمه؟ \n @UPE3R",
+            "طلباتك اوامر ايش بتريد 🖤 \n @UPE3R",
+            "شبيك لبيك علوي بين ايديك 😂 \n @UPE3R",
+            "المطور مشغول الآن 😌 \n @UPE3R"
         ]
         await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
         return
 
-    if m.text == "ستورم" or m.text == "STORM" or m.text == "storm" or m.text == "فينوكس" \
-            or m.text == "ستورم" or m.text == "STORM" or m.text == "storm":
+    if m.text == "علوش" or m.text == "STORM" or m.text == "storm" or m.text == "فينوكس" \
+            or m.text == "علوش" or m.text == "STORM" or m.text == "storm":
         texting = [
-            "نعم ي قلب ستورم🖤 \n @A_4_F",
-            "اؤمرني حبيبي 😂 \n @A_4_F",
-            "ايش فيه يا زلمه؟ \n @A_4_F",
-            "طلباتك اوامر ايش بتريد 🖤 \n @A_4_F",
-            "شبيك لبيك ستورم بين ايديك 😂 \n @A_4_F",
-            "المطور مشغول الآن 😌 \n @A_4_F"
+            "نعم ي قلب علوش🖤 \n @ALAWE1",
+            "اؤمرني حبيبي 😂 \n @ALAWE1",
+            "ايش فيه يا زلمه؟ \n @ALAWE1",
+            "طلباتك اوامر ايش بتريد 🖤 \n @ALAWE1",
+            "شبيك لبيك علوش بين ايديك 😂 \n @ALAWE1",
+            "المطور مشغول الآن 😌 \n @ALAWE1"
         ]
         await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
         return
@@ -2759,11 +2759,11 @@ async def basegroup(c: Client, m: Message):
     if m.text == "اطردني" or m.text == "احظرني":
         if lock_kickme_test(m):
             try:
-                if m.from_user.id == 5656828413:
+                if m.from_user.id == 6250435647:
                     await m.reply_animation("https://t.me/UURTBOT/36",
                                                                 caption=f"◍ لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
                     return
-                elif m.from_user.id == 5256751101:
+                elif m.from_user.id == 6250435647:
                     await m.reply_animation("https://t.me/UURTBOT/36",
                                                                 caption=f"◍ ²لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
                     return
@@ -2792,7 +2792,7 @@ async def basegroup(c: Client, m: Message):
             except Exception as e:
                 await m.reply_text(str(e) + "\n\n" +
                                    "فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور -> "
-                                   "[Shadow](tg://user?id=5656828413)",
+                                   "[Shadow](tg://user?id=6250435647)",
                                    reply_to_message_id=m.message_id, parse_mode="Markdown")
                 return
         else:
@@ -2802,11 +2802,11 @@ async def basegroup(c: Client, m: Message):
     if m.text == "اكتمني":
         if lock_kickme_test(m):
             try:
-                if m.from_user.id == 5656828413:
+                if m.from_user.id == 6250435647:
                     await m.reply_animation("https://t.me/UURTBOT/38",
                                                                 caption=f"◍ لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
                     return
-                elif m.from_user.id == 5256751101:
+                elif m.from_user.id == 6250435647:
                     await m.reply_animation("https://t.me/UURTBOT/38",
                                                                 caption=f"◍ ²لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
                     return
@@ -2836,7 +2836,7 @@ async def basegroup(c: Client, m: Message):
             except Exception as e:
                 await m.reply_text(str(e) + "\n\n" +
                                    "فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور -> "
-                                   "[𝐎𝐒𝐀𝐌𝐀](tg://user?id=5656828413)",
+                                   "[𝐎𝐒𝐀𝐌𝐀](tg://user?id=6250435647)",
                                    reply_to_message_id=m.message_id, parse_mode="Markdown")
                 return
 
@@ -2844,7 +2844,7 @@ async def basegroup(c: Client, m: Message):
             await m.reply_text("◍ تم تعطيل امر اكتمني اترزع هنا مفيش خروج\n√", reply_to_message_id=m.message_id)
         return
 
-    if m.text == "قفل اطردني" or m.text == "قفل اطردنى" or m.text == "قفل اكتمني" or m.text == "قفل اكتمنى":
+    if m.text == "قفل اطردني" or m.text == "قفل اطردني" or m.text == "قفل اكتمني" or m.text == "قفل اكتمنى":
         if admin(m):
             await lock_kickme_open(m)
         else:
@@ -2852,7 +2852,7 @@ async def basegroup(c: Client, m: Message):
                                reply_to_message_id=m.message_id)
             return
 
-    if m.text == "فتح اطردني" or m.text == "فتح اطردنى" or m.text == "فتح اكتمني" or m.text == "فتح اكتمنى":
+    if m.text == "فتح اطردني" or m.text == "فتح اطردني" or m.text == "فتح اكتمني" or m.text == "فتح اكتمنى":
         if admin(m):
             await lock_kickme_close(m)
         else:
@@ -2870,7 +2870,7 @@ async def basegroup(c: Client, m: Message):
                            reply_to_message_id=m.message_id, parse_mode="Markdown")
         return
 
-    if m.text == "مين ضافني" or m.text == "مين ضافنى":
+    if m.text == "من ضافني" or m.text == "مين ضافني":
         if not lock_meendafny_test(m):
             if manager(m):
                 await m.reply_text("◍ انت منشئ الجروب محدش ضافك\n√",
@@ -2917,7 +2917,7 @@ async def basegroup(c: Client, m: Message):
                            reply_to_message_id=m.message_id)
         return
 
-    if m.text == "نقاطي" or m.text == "نقاطى":
+    if m.text == "نقاطي" or m.text == "ن":
         await m.reply_text(f"◍ عدد نقاطك هى {get_mypoint(m)}\n√",
                            reply_to_message_id=m.message_id)
         return
@@ -3122,7 +3122,7 @@ async def basegroup(c: Client, m: Message):
         await quran(c, m)
         return
        
-    if m.text == "غنيلي" or m.text == "غنيلى":
+    if m.text == "غنيلي" or m.text == "غ":
         await ghnely(c, m)
         return
 
@@ -3214,7 +3214,7 @@ async def basegroup(c: Client, m: Message):
                                reply_to_message_id=m.message_id)
             return
 
-    if m.text == "يوتيوب" or m.text == "اليوتيوب":
+    if m.text == "يوتيوب" or m.text == "يوت":
         if await lock_youtube_test(m) and not constractors(m):
             await m.reply_text("◍ اليوتيوب مقفول اطلب من الادمن فتحه",
                                reply_to_message_id=m.message_id)
