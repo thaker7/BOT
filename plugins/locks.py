@@ -1871,7 +1871,7 @@ async def lock_all_test(m: Message):
     ⚠️┇ رابط الحذف » {deletelinklock}
     💤┇ اطردني » {kickmelock}
     ٴ━━━━━━━⎙𝐀𝐖 𝐂𝐎𝐃𝐄 ⎙━━━━━━━
-      𝗦𝗢𝗨𝗥𝗖𝗘 » @ AWCODE3
+      𝗦𝗢𝗨𝗥𝗖𝗘 » @ AWCODE3 
                 """
     await m.reply_text(textmessage, reply_to_message_id=m.message_id, parse_mode="Markdown")
 
