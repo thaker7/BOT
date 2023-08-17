@@ -44,6 +44,7 @@ async def cartoon2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("انمي 🧚‍♀️", callback_data="anmie2 " + str(m.from_user.id))],
         [InlineKeyboardButton("مسلسلات كارتون 👼", callback_data="fmoslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("افلام كارتون 🍿", callback_data="fcartoon " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
 
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
 
@@ -65,6 +66,7 @@ async def anmie(c: Client, m: Message):
         [InlineKeyboardButton("هجوم العمالقه 🎉", callback_data="hgoom " + str(m.from_user.id))],
 
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="cartoon2 " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
 
     ])
@@ -85,6 +87,7 @@ async def anmie2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("هجوم العمالقه 🎉", callback_data="hgoom " + str(m.from_user.id))],
 
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="cartoon2 " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
 
     ])
@@ -110,6 +113,7 @@ async def hinterx(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("الجزء السابع 7⃣", callback_data="hinterx7 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع ⬅️", callback_data="anmie2 " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
 
     ])
@@ -146,6 +150,7 @@ async def hinterx1(c: Client, m: CallbackQuery):
 
         [InlineKeyboardButton("➡️ التالي", callback_data="hinterx2 " + str(m.from_user.id))],
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="anmie2 " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
     ])
     await m.message.edit_text("◍ اهلا بيك في القايمة الاولي من #القناص هنتر اكس هنتر\n√", reply_markup=keyboard)
@@ -183,6 +188,7 @@ async def hinterx2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("رجوع ⬅️", callback_data="hinterx1 " + str(m.from_user.id))] +
         [InlineKeyboardButton("➡️ التالي", callback_data="hinterx3 " + str(m.from_user.id))],
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="anmie2 " + str(m.from_user.id))],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
 
     ])
