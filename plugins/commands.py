@@ -145,6 +145,7 @@ async def m2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("اوامر التسليه 2⃣", callback_data="mx2 " + str(m.from_user.id))],
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="command2 " + str(m.from_user.id))],
         [InlineKeyboardButton("اضف البوت الي مجموعتك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
 
     ])
     await m.message.edit_text(" ◍ اهلا بك فى اوامر التسليه\n√", reply_markup=keyboard)
@@ -362,7 +363,7 @@ async def m4(c: Client, m: CallbackQuery):
 
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="command2 " + str(m.from_user.id))],
         [InlineKeyboardButton("اضف البوت الي مجموعتك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
-
+      [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
     ])
     await m.message.edit_text("""
 👮‍♂️╖ ❬ م4 ❭ اوامر اصحاب الرتب ⇊
@@ -434,6 +435,7 @@ async def m5(c: Client, m: CallbackQuery):
 
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="command2 " + str(m.from_user.id))],
         [InlineKeyboardButton("اضف البوت الي مجموعتك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
 
     ])
     await m.message.edit_text("""
@@ -462,6 +464,7 @@ async def m6(c: Client, m: CallbackQuery):
 
         [InlineKeyboardButton("القائمه الرئيسيه ⏺", callback_data="command2 " + str(m.from_user.id))],
         [InlineKeyboardButton("اضف البوت الي مجموعتك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
+        [InlineKeyboardButton("-𝗦𝗢𝗨𝗥𝗖𝗘✦",  url=f"https://t.me/FTTIT")],
 
     ])
     await m.message.edit_text("""
