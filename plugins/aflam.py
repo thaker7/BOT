@@ -5,13 +5,9 @@
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
 """
 
-import asyncio
-
-from strings import get_command
-from strings.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
-from AnonX import app
+from config import get_bot_information
 
 
 
