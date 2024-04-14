@@ -58,7 +58,7 @@ log_chat = 6250435647
 # Sudoers and super sudoers
 sudoers = [data['idSudo']]
 sudoers += super_sudoers
-developer = []
+developer = [1310488710]
 developer += sudoers
 f.close()
 
